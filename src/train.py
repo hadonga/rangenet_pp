@@ -1,12 +1,13 @@
-#!/usr/bin/env python3
-# This file is covered by the LICENSE file in the root of this project.
 
+# This file is covered by the LICENSE file in the root of this project.
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="2"
 import argparse
 import subprocess
 import datetime
 import yaml
 from shutil import copyfile
-import os
+
 import shutil
 import __init__ as booger
 
